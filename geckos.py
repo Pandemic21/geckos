@@ -20,7 +20,7 @@ def get_post_data():
 def create_post(title, url):
 	gen_log('Title=' + title)
 	gen_log('URL=' + url)
-	#r.submit('test',title,url=url)
+	r.submit('geckos',title,url=url)
 
 def remove_from_file(line_to_archive):
 	gen_log('line to archive=' + line_to_archive)
